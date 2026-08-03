@@ -1,0 +1,59 @@
+# Project 1: Mini compliance Program 
+## Medicare Connect ( PTY) Ltd 
+### ISO 27001:2022 + POPIA Compliance Program 
+
+## Company Profile 
+Detail          : Information 
+--------------------------------------------
+Company         : Medicare Connect (PTY) Ltd 
+Industry        : Private Healthcare 
+Size            : 45 Employees
+Location        : Johannesburg, South Africa 
+Data Processed  : Patient personal and Medical records 
+Frameworks      : ISO 27001:2022 + POPIA   
+Regulatory Body : Information Regulator SA, HPCSA 
+
+## Project Objective 
+To design and document a Foundational Information Security Management System (ISMS) for a private healthcare company operating in South Africa, aligned to :
+- ISO 27001:2022 requirements
+- POPIA ( Protection of Personal Information Act)
+- National Healthcare Act 61 of 2003
+
+  ## Scope
+  This compliance program covers :
+  - Patient record management system
+  - Telehealth platform and video system
+  - Online appointment booking portal
+  -  Staff laptops and mobile devices
+  -  Internal HR and Payroll system
+  -  Third party integration ( labs , pharmacies)
+ 
+    ## Documents in this Portfolio
+  |              Document                |        Status          |         Description          |
+  |--------------------------------------|------------------------|------------------------------|
+  |      Compliance Program overview     |     Complete           |    Scope, Goal, Maturity     |
+  |          Asset Register              |     Completed          |    All Information Assets    |
+  |ISO 27001:2022 + POPIA Control matrix |     Completed          |    20 Controls Mapped        |
+  |      Gap Analysis Report             |     Completed          |     Identified Gaps          |
+  | Information Security Policy          |    Completed           |     Master Policy            |
+  |   Risk Summary Report                |    Completed           |   Top risks identified       |
+
+   ## Key skills Demonstrated
+  - ISO 27001:2022 Annex A control mapping
+  - POPIA Compliance integration
+  - Healthcare sector risk understanding
+  - Gap analysis and remediation planning
+  - compliance Maturity Documentation
+  - South African Regulatory alignment
+ 
+    ## frameworks Used
+    - ISO/IEC 27001:2022
+    - ISO/IEC 27002:2022
+    - POPIA (Act 4 OF 2013)
+    - National health Act 61 of 2003
+    - HPCSA Ethical Guidelines
+   
+    - Created by Patrick Vusumuzi Mohlala
+    - GRC Analyst | Johannesburg, South Africa
+    -  github.com/PatrickMohlala/GRC-Portfolio
+      
