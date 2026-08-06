@@ -1,0 +1,58 @@
+# Project 2 : Information Security Register 
+## Medicare Connect (PTY) Ltd
+### ISO 27001 Risk Assessment | Healthcare sector | South Africa
+
+
+## The Business Problem 
+Project 1 identified 12 control gaps. Management had limited budget and needed to know which gaps to fix first.
+
+This project quantifies each threat in business terms so Management can allocate spend based on evidence, not opinion.
+
+## Results
+
+|         Metric               | Value |
+|------------------------------|-------|
+| Risks identified             |   18  |
+| Critical risks (20-25)       |   5   |
+| High risks (12-19)           |  13   |
+| Average inherent score       | 16.3  |
+| Average residual score       | 7.1   |
+| Risk reduction achieved      | 56%   |
+| Potential exposure avoided   | R11.25 million |
+| Remediation investment       | R300 000 |
+| Return ratio                 | 1 : 37 |
+
+## Documents
+
+|             File                |           Description              |
+|---------------------------------|------------------------------------|
+| Risk-Assessment-Methodology     | Scoring model aligned to ISO 27005 |
+| Risk-Register (xlsx)            | 18 risks with live formulas        |
+| Risk-Heat-Map                   | Inherent vs residual visualization |
+| Executive-Risk-Summary          | Board level decision document      |
+
+
+## Methodology
+- ISO/IEC 27005:2022 Risk Management
+- ISO/IEC 27001:2022 Clause 6.1.2
+- ISO 31000 Risk Management Principles
+- 5x5 Likelihood x Impact matrix
+- Inherent and residual risk scoring
+
+## Compliance Mapping
+Every risk is mapped to:
+- ISO 27001:2022 Annex A control
+- Specific POPIA section violated
+
+## South African Context
+This register includes risks specific to the South African operating environment that generic templates omit:
+
+- Load shedding impact on clinical systems
+- POPIA 72 hour breach notification failure
+- Information Officer registration under
+  POPIA Section 55
+- National Health Act retention conflict with POPIA minimization requirements
+- Business email compromise targeting SA payment systems
+- 
+Compiled by Patrick Mohlala
+GRC Analyst | Johannesburg, South Africa
