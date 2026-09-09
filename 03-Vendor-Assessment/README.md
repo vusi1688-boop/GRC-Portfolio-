@@ -1,20 +1,19 @@
 # Project 3: Third-Party Vendor Risk Assessment & POPIA Operator Governance
 ## MediCare Connect (Pty) Ltd
-### ISO 27001:2022 Controls A.5.19 – A.5.22 | POPIA Section 20 & 21 | Healthcare Sector
 
-## 📐 Third-Party Risk Management (TPRM) Governance Workflow
 
 ```mermaid
-graph TD
-    A[New Vendor Request] --> B[Criticality Screening: Tier 1, 2, or 3]
-    B --> C[Issue 25-Question VSAQ & Evidence Request]
-    C --> D[Evaluate 5 Security Domains]
-    D --> E{Overall Score Benchmark}
-    E -->|Score < 70%| F[Conditional Approval + Corrective Action Plan]
-    E -->|Score >= 70%| G[Standard Onboarding]
-    F --> H[Execute Mandatory POPIA Section 21 Operator Agreement]
-    G --> H
-    H --> I[24-Hour Breach Alert Clause Activated]
+flowchart TD
+    A[Third-Party Vendor Request] --> B[Risk Tier Screening]
+    B --> C[25-Question VSAQ Issued]
+    C --> D{Evaluation Benchmark}
+    D -->|Score under 70%| E[Conditional Approval Plan]
+    D -->|Score over 70%| F[Standard Onboarding]
+    E --> G[POPIA Section 21 Contract]
+    F --> G
+
+
+### ISO 27001:2022 Controls A.5.19 – A.5.22 | POPIA Section 20 & 21 | Healthcare Sector
 
 ---
 
@@ -71,5 +70,17 @@ A complete Third-Party Risk Management (TPRM) framework including:
 Remediated **RSK-007** by establishing mandatory security evaluations and POPIA Section 21 contracts across all Tier 1 vendors, reducing third-party risk exposure from **HIGH (Score 15)** to **MEDIUM (Score 8)**.
 
 ---
+
+```markdown
+
+---
+
+## 🧠 What I Learned
+- **Regulatory Timeline Alignment:** Vendor SLAs promising breach notification in 5 business days directly conflict with POPIA’s 72-hour regulatory obligation.
+- **Contractual Governance:** Security questionnaires are weak without an executed POPIA Section 21 Operator Agreement that gives audit rights and enforceable breach clauses.
+
+## 🚀 What I'd Improve in a Production Environment
+1. **Continuous Third-Party Monitoring:** Use tools like BitSight or SecurityScorecard for real-time vendor security ratings instead of only annual questionnaires.
+2. **Automated VSAQ Portals:** Move questionnaire distribution and scoring into a platform such as OneTrust or Whistic.
 *Portfolio project by Patrick Mohlala*  
 *GRC Analyst | Johannesburg, South Africa*
