@@ -1,17 +1,15 @@
 # Project 2 : Information Security Register 
 ## Medicare Connect (PTY) Ltd
-### ISO 27001 Risk Assessment | Healthcare sector | South Africa
 
-## 📐 ISO 27005 Risk Assessment Lifecycle Diagram
 
 ```mermaid
-graph LR
-    A[12 Information Assets] --> B[18 Threat Identifications]
-    B --> C[Likelihood 1-5 x Impact 1-5 Scoring]
-    C --> D{Inherent Risk Level}
-    D -->|5 Critical / 13 High| E[ISO 27001 Annex A Control Mapping]
-    E --> F[Treatment Options: Mitigate / Transfer / Accept]
-    F --> G[Residual Risk Calculation: 56% Risk Exposure Avoided]
+flowchart LR
+    A[12 Information Assets] --> B[18 Threat Scenarios]
+    B --> C[5x5 Likelihood x Impact Matrix]
+    C --> D{Inherent Risk Evaluation}
+    D -->|5 Critical / 13 High| E[ISO 27001 Control Treatment]
+    E --> F[Residual Risk Reduction 56%]
+### ISO 27001 Risk Assessment | Healthcare sector | South Africa
 
 
 ## The Business Problem 
@@ -67,3 +65,15 @@ This register includes risks specific to the South African operating environment
 - 
 Compiled by Patrick Mohlala
 GRC Analyst | Johannesburg, South Africa
+
+```markdown
+
+---
+
+## 🧠 What I Learned
+- **Risk Communication:** Executives do not respond to technical vulnerability lists; framing risks in terms of business impact (R11.25M regulatory fine risk vs. R300k remediation cost) immediately drives decision-making.
+- **Local Context Integration:** Generic risk frameworks fail if local operational threats (such as Stage 6 Load Shedding, fibre theft, and SIM swap fraud) are omitted from the risk model.
+
+## 🚀 What I'd Improve in a Production Environment
+1. **Quantitative Risk Modeling (FAIR):** Upgrade from qualitative 5x5 matrix scoring to FAIR quantitative modeling to calculate probable loss magnitude using Monte Carlo simulations.
+2. **Dynamic Risk Ingestion:** Connect the risk register directly to vulnerability scanners (e.g., Tenable/Nessus) so risk scores update automatically when new CVEs appear on critical assets.
