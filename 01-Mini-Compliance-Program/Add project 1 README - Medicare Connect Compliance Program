@@ -1,17 +1,17 @@
 # Project 1: Mini compliance Program 
 ## Medicare Connect ( PTY) Ltd 
 ### ISO 27001:2022 + POPIA Compliance Program 
-## 📐 ISMS Implementation Architecture & Workflow
+
 
 ```mermaid
-graph TD
-    A[Business Scope: 45 Employees / 12 Information Assets] --> B[ISO 27001:2022 Annex A & POPIA Assessment]
+flowchart TD
+    A[Scope: 45 Staff / 12 Assets] --> B[ISO 27001 & POPIA Assessment]
     B --> C{Control Evaluation}
-    C -->|Compliant 23%| D[Documented Evidence Register]
-    C -->|Non-Compliant 77%| E[12 Gap Identification & Severity Scoring]
-    E --> F[5 Critical Non-Conformities Identified]
-    F --> G[4-Month Prioritized Remediation Roadmap]
-    G --> H[Executive Board Sign-Off & ISO 27001 Audit Readiness]
+    C -->|23% Compliant| D[Evidence Register]
+    C -->|77% Non-Compliant| E[12 Gap Identification]
+    E --> F[5 Critical Non-Conformities]
+    F --> G[4-Month Remediation Roadmap]
+
 
 ## Company Profile 
 Detail          : Information 
@@ -67,6 +67,18 @@ To design and document a Foundational Information Security Management System (IS
     - Created by Patrick Vusumuzi Mohlala
     - GRC Analyst | Johannesburg, South Africa
     -  github.com/PatrickMohlala/GRC-Portfolio
+
+## 🧠 What I Learned
+- **Framework Mapping Complexity:** Mapping ISO 27001:2022 dual-track against POPIA showed that technical controls alone cover less than 40% of SA statutory requirements; governance (Information Officer, policies) carries equal weight.
+- **Zero-Cost Remediation:** Critical gaps such as BitLocker encryption and M365 MFA required no new licences—only configuration and enforcement.
+
+## 🚀 What I'd Improve in a Production Environment
+1. **Automated Compliance Monitoring:** Move from manual Excel tracking to continuous compliance tooling (Vanta, Secureframe, or similar).
+2. **Operational Evidence Sampling:** Go beyond document review by sampling live technical evidence (e.g., PowerShell checks for MFA enforcement).
+
+```markdown
+
+---
 
 ## 🧠 What I Learned
 - **Framework Mapping Complexity:** Mapping ISO 27001:2022 dual-track against POPIA showed that technical controls alone cover less than 40% of SA statutory requirements; governance (Information Officer, policies) carries equal weight.
