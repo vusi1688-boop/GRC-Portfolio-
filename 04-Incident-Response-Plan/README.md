@@ -1,5 +1,17 @@
 # Project 4: Incident Response Plan
 ## MediCare Connect (Pty) Ltd
+## 📐 ISO 27035 & POPIA 72-Hour Breach Response Workflow
+
+```mermaid
+graph TD
+    A[Security Incident Discovered] --> B[Triage & Severity Classification: Tier 1 - 4]
+    B --> C{POPIA Section 22 Reportable?}
+    C -->|YES| D[START 72-HOUR REGULATORY CLOCK]
+    C -->|NO| E[Internal Incident Containment & Logging]
+    D --> F[Short-Term Containment & Evidence Preservation]
+    F --> G[Complete Pre-Populated Form 4 Regulatory Template]
+    G --> H[Submit Form 4 to Information Regulator < 72h]
+    H --> I[Eradication, Recovery & Post-Incident Review Report]
 ### ISO 27035 Aligned | POPIA Section 22 | Healthcare Sector
 
 ## The Business Problem
