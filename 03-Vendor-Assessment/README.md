@@ -12,7 +12,6 @@ flowchart TD
     E --> G[POPIA Section 21 Contract]
     F --> G
 
-
 ### ISO 27001:2022 Controls A.5.19 – A.5.22 | POPIA Section 20 & 21 | Healthcare Sector
 
 ---
