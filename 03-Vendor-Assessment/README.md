@@ -1,6 +1,7 @@
 # Project 3: Third-Party Vendor Risk Assessment & POPIA Operator Governance
 ## MediCare Connect (Pty) Ltd
 ### ISO 27001:2022 Controls A.5.19 – A.5.22 | POPIA Section 20 & 21 | Healthcare Sector
+
 ## 📐 Third-Party Risk Management (TPRM) Governance Workflow
 
 ```mermaid
