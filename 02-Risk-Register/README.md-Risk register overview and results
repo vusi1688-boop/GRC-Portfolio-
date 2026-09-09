@@ -2,6 +2,17 @@
 ## Medicare Connect (PTY) Ltd
 ### ISO 27001 Risk Assessment | Healthcare sector | South Africa
 
+## 📐 ISO 27005 Risk Assessment Lifecycle Diagram
+
+```mermaid
+graph LR
+    A[12 Information Assets] --> B[18 Threat Identifications]
+    B --> C[Likelihood 1-5 x Impact 1-5 Scoring]
+    C --> D{Inherent Risk Level}
+    D -->|5 Critical / 13 High| E[ISO 27001 Annex A Control Mapping]
+    E --> F[Treatment Options: Mitigate / Transfer / Accept]
+    F --> G[Residual Risk Calculation: 56% Risk Exposure Avoided]
+
 
 ## The Business Problem 
 Project 1 identified 12 control gaps. Management had limited budget and needed to know which gaps to fix first.
